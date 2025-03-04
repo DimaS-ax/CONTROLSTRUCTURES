@@ -10,6 +10,12 @@ using namespace std;
 //#define WHITE_BOX          (char)219
 #define BLACK_BOX          "  "
 //#define BLACK_BOX          (char)32
+/*
+	Escape-последовательность '\xHH' позволяет прямо в строке задать ASCII-код символа
+	в Шестнадцатеричной системе счисления.
+
+*/
+
 
 //#define ASCII
 
