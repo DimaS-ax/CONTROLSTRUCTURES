@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "POLYNDROME", "POLYNDROME\PO
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GEOMETRY", "GEOMETRY\GEOMETRY.vcxproj", "{F976B656-2171-4070-85DD-EF4A27B3CA58}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CHESS1", "CHESS1\CHESS1.vcxproj", "{F854189B-9D1B-4288-AFFD-692C86D0D511}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,8 +73,19 @@ Global
 		{F976B656-2171-4070-85DD-EF4A27B3CA58}.Release|x64.Build.0 = Release|x64
 		{F976B656-2171-4070-85DD-EF4A27B3CA58}.Release|x86.ActiveCfg = Release|Win32
 		{F976B656-2171-4070-85DD-EF4A27B3CA58}.Release|x86.Build.0 = Release|Win32
+		{F854189B-9D1B-4288-AFFD-692C86D0D511}.Debug|x64.ActiveCfg = Debug|x64
+		{F854189B-9D1B-4288-AFFD-692C86D0D511}.Debug|x64.Build.0 = Debug|x64
+		{F854189B-9D1B-4288-AFFD-692C86D0D511}.Debug|x86.ActiveCfg = Debug|Win32
+		{F854189B-9D1B-4288-AFFD-692C86D0D511}.Debug|x86.Build.0 = Debug|Win32
+		{F854189B-9D1B-4288-AFFD-692C86D0D511}.Release|x64.ActiveCfg = Release|x64
+		{F854189B-9D1B-4288-AFFD-692C86D0D511}.Release|x64.Build.0 = Release|x64
+		{F854189B-9D1B-4288-AFFD-692C86D0D511}.Release|x86.ActiveCfg = Release|Win32
+		{F854189B-9D1B-4288-AFFD-692C86D0D511}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A32BBA6F-E819-4077-8B1B-1C107E95CD27}
 	EndGlobalSection
 EndGlobal

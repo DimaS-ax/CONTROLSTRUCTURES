@@ -14,12 +14,63 @@ using namespace std;
 //#define TRIANGLE_3
 //#define TRIANGLE_4
 //#define RECTANGLE
+//#define NEXT_RHOMBUS
+//#define XXPLUS_AND_MINUS
 
 
 void main()
 {
 	setlocale(LC_ALL, "ru");
 	cout << "GEOMETRY" << endl;
+
+
+
+
+
+#ifdef XXPLUS_AND_MINUS
+	int n;
+	n = 5;
+
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0; j < n; j++)
+		{
+			/*if ((i + j) % 2 == 0)cout << "+ "; else cout << "- ";*/
+
+			/*if (i % 2 == j % 2)cout << "+ "; else cout << "- ";*/
+
+			/*i % 2 == j % 2 ? cout << "+ " : cout << "- ";*/
+
+			/*i + j % 2 ? cout << "+ " : cout << "- ";*/
+
+			cout << (i % 2 == j % 2 ? "+ " : "- ");
+
+		}
+		cout << endl;
+	}
+#endif // XXPLUS_AND_MINUS
+
+
+#ifdef NEXT_RHOMBUS
+	int n;
+	n = 5;
+
+	for (int i = 0; i < n * 2; i++)
+	{
+		for (int j = 0; j < n * 2; j++)
+		{
+			//cout << "* ";
+			if (i == (j + n) || j == (i + n)) cout << "\\";
+
+			/*else if (i == (n - j - 1) || i == (n * 3 - j - 1))cout << "/";*/
+			else if (i == (n - j - 1) || (i - n == (n * 2 - j - 1)))cout << "/";
+			
+			else cout << " ";
+
+		}
+		cout << endl;
+	}
+#endif // NEXT_RHOMBUS
 
 
 #ifdef RECTANGLE
@@ -64,6 +115,7 @@ void main()
 		}
 		cout << endl;
 	}
+	cout << endl;
 #endif // TRIANGLE_4
 
 
@@ -87,6 +139,7 @@ void main()
 		}
 		cout << endl;
 	}
+	cout << endl;
 #endif // TRIANGLE_3
 
 
