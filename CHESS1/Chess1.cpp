@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 #define UPPER_LEFT_ANGLE   (char)218
 #define UPPER_PIGHT_ANGLE  (char)191
@@ -11,8 +11,8 @@ using namespace std;
 #define BLACK_BOX          "  "
 //#define BLACK_BOX          (char)32
 /*
-	Escape-последовательность '\xHH' позволяет прямо в строке задать ASCII-код символа
-	в Шестнадцатеричной системе счисления.
+	Escape-РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ '\xHH' РїРѕР·РІРѕР»СЏРµС‚ РїСЂСЏРјРѕ РІ СЃС‚СЂРѕРєРµ Р·Р°РґР°С‚СЊ ASCII-РєРѕРґ СЃРёРјРІРѕР»Р°
+	РІ РЁРµСЃС‚РЅР°РґС†Р°С‚РµСЂРёС‡РЅРѕР№ СЃРёСЃС‚РµРјРµ СЃС‡РёСЃР»РµРЅРёСЏ.
 
 */
 
@@ -35,9 +35,9 @@ void main()
 	setlocale(LC_ALL, "ru");
 
 	int n;
-	cout << "Введите размер доски: "; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РґРѕСЃРєРё: "; cin >> n;
 	n++;
-	setlocale(LC_ALL, "C");//Устонавливает кодировку по умолчанию
+	setlocale(LC_ALL, "C");//РЈСЃС‚РѕРЅР°РІР»РёРІР°РµС‚ РєРѕРґРёСЂРѕРІРєСѓ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 
 	for (int i = 0; i <= n; i++)
 	{
