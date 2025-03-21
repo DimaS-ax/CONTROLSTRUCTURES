@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 using namespace std;
 using std::sin;
@@ -20,26 +20,26 @@ void main()
 	cout << "Shooter" << endl;
 
 #ifdef IF_ELSE
-	char key; // Çàïèñü êîäà êëàâèøè â ïåðåìåííóþ
+	char key; // Ð—Ð°Ð¿Ð¸ÑÑŒ ÐºÐ¾Ð´Ð° ÐºÐ»Ð°Ð²Ð¸ÑˆÐ¸ Ð² Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½ÑƒÑŽ
 	do
 	{
-		key = _getch(); //Ôóíêöèÿ "_gettch()" îæèäàåò íàæàòèÿ êëàâèøè è âîçâðàùàåò
-		//ASCII êîä íàæàòîé êëàâèøè.
-//(int)key ýòî ÿâíîå ïðåîáðàçîâàíèå 'key' â ÷èñëîâîé êîä 'int'
-//ïî èòîãó ïîëó÷èì ASCII êîä.
+		key = _getch(); //Ð¤ÑƒÐ½ÐºÑ†Ð¸Ñ "_gettch()" Ð¾Ð¶Ð¸Ð´Ð°ÐµÑ‚ Ð½Ð°Ð¶Ð°Ñ‚Ð¸Ñ ÐºÐ»Ð°Ð²Ð¸ÑˆÐ¸ Ð¸ Ð²Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚
+		//ASCII ÐºÐ¾Ð´ Ð½Ð°Ð¶Ð°Ñ‚Ð¾Ð¹ ÐºÐ»Ð°Ð²Ð¸ÑˆÐ¸.
+//(int)key ÑÑ‚Ð¾ ÑÐ²Ð½Ð¾Ðµ Ð¿Ñ€ÐµÐ¾Ð±Ñ€Ð°Ð·Ð¾Ð²Ð°Ð½Ð¸Ðµ 'key' Ð² Ñ‡Ð¸ÑÐ»Ð¾Ð²Ð¾Ð¹ ÐºÐ¾Ð´ 'int'
+//Ð¿Ð¾ Ð¸Ñ‚Ð¾Ð³Ñƒ Ð¿Ð¾Ð»ÑƒÑ‡Ð¸Ð¼ ASCII ÐºÐ¾Ð´.
 /*cout << (int)key << "\t" << key << endl;*/
 
-		if (key == 'w' || key == 'W' || key == UpArrow)cout << "Âïåðåä" << endl;
-		else if (key == 's' || key == 'S' || key == DownArrow)cout << "Íàçàä" << endl;
-		else if (key == 'a' || key == 'A' || key == LeftArrow)cout << "Âëåâî" << endl;
-		else if (key == 'd' || key == 'D' || key == RightArrow)cout << "Âïðàâî" << endl;
-		else if (key == ' ')cout << "Ïðûæîê" << endl;
-		else if (key == Enter)cout << "Îãîíü" << endl;
+		if (key == 'w' || key == 'W' || key == UpArrow)cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl;
+		else if (key == 's' || key == 'S' || key == DownArrow)cout << "ÐÐ°Ð·Ð°Ð´" << endl;
+		else if (key == 'a' || key == 'A' || key == LeftArrow)cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;
+		else if (key == 'd' || key == 'D' || key == RightArrow)cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl;
+		else if (key == ' ')cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl;
+		else if (key == Enter)cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl;
 		else if (key != -32 && key != Escape) cout << "Error" << endl;
 
 	} while (key != Escape);
-	/* (type)value; C-Like notation, Ñ_ïîäîáíàÿ ôîðìà çàïèñè.
-	   type(value); Functional notation, Ôóíêöèîíàëüíàÿ ôîìà çàïèñè. */
+	/* (type)value; C-Like notation, Ð¡_Ð¿Ð¾Ð´Ð¾Ð±Ð½Ð°Ñ Ñ„Ð¾Ñ€Ð¼Ð° Ð·Ð°Ð¿Ð¸ÑÐ¸.
+	   type(value); Functional notation, Ð¤ÑƒÐ½ÐºÑ†Ð¸Ð¾Ð½Ð°Ð»ÑŒÐ½Ð°Ñ Ñ„Ð¾Ð¼Ð° Ð·Ð°Ð¿Ð¸ÑÐ¸. */
 #endif // IF_ELSE
 
 #ifdef SWITCH
@@ -53,20 +53,20 @@ void main()
 		{
 		case UpArrow:
 		case 'W':
-		case 'w': cout << "Âïåðåä" << endl; break;
+		case 'w': cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl; break;
 		case DownArrow:
 		case 'S':
-		case 's': cout << "Íàçàä" << endl; break;
+		case 's': cout << "ÐÐ°Ð·Ð°Ð´" << endl; break;
 		case LeftArrow:
 		case 'A':
-		case 'a': cout << "Âëåâî" << endl; break;
+		case 'a': cout << "Ð’Ð»ÐµÐ²Ð¾" << endl; break;
 		case RightArrow:
 		case 'D':
-		case 'd': cout << "Âïðàâî" << endl; break;
-		case ' ': cout << "Ïðûæîê" << endl; break;
-		case Enter: cout << "Îãîíü" << endl; break;
+		case 'd': cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl; break;
+		case ' ': cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl; break;
+		case Enter: cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl; break;
 		case -32:break;
-		case Escape: cout << "Âûõîä" << endl;
+		case Escape: cout << "Ð’Ñ‹Ñ…Ð¾Ð´" << endl;
 		default:
 			cout << "Error!" << endl;
 			break;
