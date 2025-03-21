@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 using std::cin;
 using std::cout;
@@ -11,8 +11,8 @@ void main()
 {
 	setlocale(LC_ALL, "ru");
 
-#ifdef WHILE // Цикл 'While'
-	cout << "Цикл 'While'" << endl;
+#ifdef WHILE // Р¦РёРєР» 'While'
+	cout << "Р¦РёРєР» 'While'" << endl;
 	int a = 0;
 	while (a < 10)
 	{
@@ -24,25 +24,25 @@ void main()
 
 	cout << "===================================================" << endl;
 	int b;
-	cout << "Ввидите количество итераций: "; cin >> b;
+	cout << "Р’РІРёРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РёС‚РµСЂР°С†РёР№: "; cin >> b;
 	while (--b)
 	{
 		cout << b << "  ";
-		// b--;  //Можно записать так...
+		// b--;  //РњРѕР¶РЅРѕ Р·Р°РїРёСЃР°С‚СЊ С‚Р°Рє...
 	}
 	cout << endl;
 	cout << "===================================================" << endl;
 #endif // WHILE
 
-#ifdef DO_WHILE // Цикл 'Do While'
+#ifdef DO_WHILE // Р¦РёРєР» 'Do While'
 	int i = 0;
-	cout << "|  Начало цикла 'Do While'" << endl;
+	cout << "|  РќР°С‡Р°Р»Рѕ С†РёРєР»Р° 'Do While'" << endl;
 	do
 	{
 		cout << i << endl;
 		i++;
 	} while (i < 10);
-	cout << i << " - Конец цикла 'Do While'" << endl;
+	cout << i << " - РљРѕРЅРµС† С†РёРєР»Р° 'Do While'" << endl;
 #endif // DO_WHILE
 
 }
