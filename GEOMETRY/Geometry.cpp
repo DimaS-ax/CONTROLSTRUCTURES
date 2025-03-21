@@ -1,11 +1,11 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 //#define SQUARE
 //#define CLASS_TRIANGLE_1
 //#define CLASS_TRIANGLE_2
 //#define STARS
-//#define CHESS    // Перед включением выключить "setlocale" на русском
+//#define CHESS    // РџРµСЂРµРґ РІРєР»СЋС‡РµРЅРёРµРј РІС‹РєР»СЋС‡РёС‚СЊ "setlocale" РЅР° СЂСѓСЃСЃРєРѕРј
 //#define PLUS_AND_MINUS
 //#define FULL_RHOMBUS
 //#define EMPTY_RHOMBUS
@@ -84,7 +84,7 @@ void main()
 
 */
 
-Прямоугольник:
+РџСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРє:
 	for (int i = 0; i < 5; i++)
 	{
 		cout << endl;
@@ -273,7 +273,7 @@ void main()
 #endif // PLUS_AND_MINUS
 
 
-#ifdef CHESS  // Перед запуском "Chess" нужно выключить "SETLOCALE" на русском
+#ifdef CHESS  // РџРµСЂРµРґ Р·Р°РїСѓСЃРєРѕРј "Chess" РЅСѓР¶РЅРѕ РІС‹РєР»СЋС‡РёС‚СЊ "SETLOCALE" РЅР° СЂСѓСЃСЃРєРѕРј
 	cout << " ______________\n" << endl;
 	for (int j = 0; j < 8; j++)
 	{
@@ -323,7 +323,7 @@ void main()
 
 #ifdef CLASS_TRIANGLE_2
 	int n;
-	cout << "Ввидите количество звездочек: "; cin >> n;
+	cout << "Р’РІРёРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р·РІРµР·РґРѕС‡РµРє: "; cin >> n;
 
 	for (int i = 0; i < n; i++)
 	{
@@ -339,7 +339,7 @@ void main()
 	}
 
 	int m;
-	cout << "Введите количество звездочек: "; cin >> m;
+	cout << "Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р·РІРµР·РґРѕС‡РµРє: "; cin >> m;
 
 	for (int i = 0; i < m; i++) {
 
@@ -357,7 +357,7 @@ void main()
 
 #ifdef CLASS_TRIANGLE_1
 	int b;
-	cout << "Ввидите количество звездочек: "; cin >> b;
+	cout << "Р’РІРёРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р·РІРµР·РґРѕС‡РµРє: "; cin >> b;
 
 	for (int i = 1; i <= b; i++)
 	{
@@ -369,7 +369,7 @@ void main()
 	}
 
 	int s;
-	cout << "Ввидите количество звездочек: "; cin >> s;
+	cout << "Р’РІРёРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р·РІРµР·РґРѕС‡РµРє: "; cin >> s;
 
 	for (int i = s; i >= 1; i--)
 	{
@@ -385,8 +385,8 @@ void main()
 #ifdef SQUARE
 	int heigth, width;
 
-	cout << "Ввидите высоту прямоугольника: "; cin >> heigth;
-	cout << "Ввидите ширину прямоугольника: "; cin >> width;
+	cout << "Р’РІРёРґРёС‚Рµ РІС‹СЃРѕС‚Сѓ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР°: "; cin >> heigth;
+	cout << "Р’РІРёРґРёС‚Рµ С€РёСЂРёРЅСѓ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР°: "; cin >> width;
 	cout << endl;
 
 	for (int j = 0; j < heigth; j++)
