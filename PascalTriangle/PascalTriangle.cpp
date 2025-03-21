@@ -1,5 +1,15 @@
 #include<iostream>
 using namespace std;
+/*
+  Домашнее задание 'Система счисления' 
+  Сфоткал свою рабочию тетрадь и отправил на GitHub две фотографии
+https://github.com/DimaS-ax/CONTROLSTRUCTURES/tree/master/Pictures
+
+
+Ссылка на тот же треугольник Паскаля, который здесь в файле.cpp
+https://github.com/DimaS-ax/CONTROLSTRUCTURES/tree/master/PascalTriangle
+
+*/
 
 void main()
 {
